@@ -1,0 +1,1 @@
+web: java -jar target/ApiRestReadingXlsxFiles-1.0.0-SNAPSHOT.jar com.rafael.readingxlsxfiles.ReadingXlsxFilesApplication
