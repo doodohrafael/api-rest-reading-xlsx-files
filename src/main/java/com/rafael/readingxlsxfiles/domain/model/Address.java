@@ -19,6 +19,7 @@ public class Address {
 	@Id
 	@GeneratedValue(generator = "increment")
 	@GenericGenerator(name = "increment", strategy = "increment")
+	@EqualsAndHashCode.Include
 	private long id;
 	
 //	Or Mysql
